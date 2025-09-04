@@ -1,0 +1,18 @@
+ .sbgy-floating-notice {
+                position: fixed;
+                bottom: 20px;
+                right: 20px;
+                background: #323232;
+                color: #fff;
+                padding: 12px 18px;
+                border-radius: 6px;
+                font-size: 14px;
+                box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+                z-index: 9999;
+                opacity: 0.95;
+                animation: sbgyFadeIn 0.4s ease;
+            }
+            @keyframes sbgyFadeIn {
+                from { opacity: 0; transform: translateY(20px); }
+                to { opacity: 0.95; transform: translateY(0); }
+            }
